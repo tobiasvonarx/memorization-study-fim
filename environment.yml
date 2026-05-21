@@ -1,0 +1,30 @@
+name: memfim
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.3
+  - pandas=2.3
+  - pyarrow=22
+  - matplotlib=3.10
+  - pyyaml=6.0
+  - tqdm=4.67
+  - requests=2.32
+  - pytorch=2.9
+  - pytorch-cuda=12.1
+  - pip:
+      - accelerate==1.11.0
+      - datatrove==0.6.0
+      - datasets==4.3.0
+      - huggingface-hub==0.35.3
+      - lm_eval[hf]
+      - psutil==7.1.2
+      - safetensors==0.6.2
+      - tensorboard==2.20.0
+      - tokenizers==0.22.1
+      - transformers==4.57.1
+      - wandb==0.22.3
+      - xxhash==3.6.0
