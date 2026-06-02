@@ -168,13 +168,11 @@ results/                           generated summaries, figures, and caches
 
 If you find our work helpful, please use the following citation:
 ```bibtex
-@misc{vonarx2026memorization,
+@article{vonarx2026memorization,
       title={Memorization Dynamics of Fill-in-the-Middle Pretraining}, 
       author={Tobias von Arx and Tanguy Dieudonné},
       year={2026},
       eprint={2605.22981},
       archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2605.22981}, 
 }
 ```
