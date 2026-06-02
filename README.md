@@ -2,7 +2,7 @@
 
 [*ICML 2026 Workshop on the Impact of Memorization on Trustworthy Foundation Models*]
 
-[**Paper**](TODO) | [**Checkpoints and Training Logs**](#released-checkpoints)
+[**Paper**](https://arxiv.org/abs/2605.22981) | [**Checkpoints and Training Logs**](#released-checkpoints)
 
 This repository contains the code accompanying the paper *Memorization Dynamics of Fill-in-the-Middle Pretraining*. It includes data
 preparation, Megatron-LM training code, downstream
@@ -168,5 +168,13 @@ results/                           generated summaries, figures, and caches
 
 If you find our work helpful, please use the following citation:
 ```bibtex
-TODO
+@misc{vonarx2026memorization,
+      title={Memorization Dynamics of Fill-in-the-Middle Pretraining}, 
+      author={Tobias von Arx and Tanguy Dieudonné},
+      year={2026},
+      eprint={2605.22981},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.22981}, 
+}
 ```
